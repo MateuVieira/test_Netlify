@@ -1,0 +1,12 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dioxus = "0.5.6"
+dioxus-web = "0.5.6"
+log = "0.4.22"
+serde_json = "1.0.128"
+wasm-logger = "0.2.0"
+reqwest = { version = "0.11", features = ["json"] }
