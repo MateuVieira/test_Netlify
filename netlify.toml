@@ -1,0 +1,4 @@
+[build]
+  command = "cd frontend && cargo build --release && cd .. && cd functions && cargo build --release"
+  publish = "frontend/target/release"
+  functions = "functions/target/release"
