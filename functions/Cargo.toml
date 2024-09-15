@@ -6,3 +6,7 @@ edition = "2021"
 [dependencies]
 lambda_http = "0.7"
 serde_json = "1.0"
+
+[[bin]]
+name = "greet" # The name of your Netlify function
+path = "greet.rs" 
